@@ -1,3 +1,28 @@
+Arquivo:
+Definição: Em computação, um arquivo é uma unidade de armazenamento de informações que é armazenada em um dispositivo de armazenamento, como um disco rígido ou memória flash. Os arquivos podem conter dados de vários tipos, como texto, imagens, áudio, vídeo, programas executáveis e muito mais.
+1.1. Arquivo de Texto:
+
+Definição: Um arquivo de texto é um tipo de arquivo que contém apenas texto simples, sem formatação especial ou elementos multimídia embutidos. Os arquivos de texto são frequentemente usados para armazenar dados que podem ser facilmente lidos e editados por humanos e por programas de software.
+
+Características:
+
+Os arquivos de texto podem ser criados e editados usando editores de texto simples, como o Bloco de Notas no Windows ou o TextEdit no macOS.
+Eles são frequentemente usados para armazenar dados estruturados ou não estruturados que não requerem formatação especial.
+Os arquivos de texto podem ser lidos e processados por uma ampla variedade de programas e linguagens de programação.
+Exemplo: Um arquivo de texto simples pode conter uma lista de nomes separados por vírgulas:
+
+Copy code
+Alice, Bob, Charlie, David
+Nesse exemplo, cada nome é separado por uma vírgula e não há formatação adicional no arquivo de texto.
+
+
+
+
+
+
+
+
+
 1- ENCONTRE REFERÊNCIAS E COMENTE SOBRE
 A- A relação entre os Data CEnters e a LGPD no Brasil
 A Lei Geral de Proteção de Dados (LGPD) entrou em vigor no Brasil em setembro de 2020
