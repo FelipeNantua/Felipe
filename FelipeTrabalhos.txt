@@ -87,3 +87,24 @@ Dados públicos podem conter informações sensíveis sobre indivíduos e grupos
 informações de saúde, informações financeiras e informações de identificação pessoal. É
 importante que os dados sejam anonimizados ou agregados de forma a não permitir a
 identificação individual.
+
+Aqui estão exemplos simples de uma estrutura de repetição (loop) e uma estrutura de tomada de decisão (condicional) em Python:
+
+Exemplo de estrutura de repetição (loop):
+python
+Copy code
+# Loop for para imprimir os números de 1 a 5
+for i in range(1, 6):
+    print(i)
+Exemplo de estrutura de tomada de decisão (condicional):
+python
+Copy code
+# Verifica se um número é positivo, negativo ou zero
+num = float(input("Digite um número: "))
+
+if num > 0:
+    print("O número é positivo.")
+elif num < 0:
+    print("O número é negativo.")
+else:
+    print("O número é zero.")
