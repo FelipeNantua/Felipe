@@ -108,3 +108,44 @@ elif num < 0:
     print("O número é negativo.")
 else:
     print("O número é zero.")
+
+
+ implementação do algoritmo Bubble Sort em Python:
+
+python
+
+def bubble_sort(arr):
+    n = len(arr)
+    for i in range(n):
+        for j in range(0, n-i-1):
+            if arr[j] > arr[j+1]:
+                arr[j], arr[j+1] = arr[j+1], arr[j]
+    return arr
+
+# Exemplo de uso
+arr = [64, 34, 25, 12, 22, 11, 90]
+sorted_arr = bubble_sort(arr)
+print("Lista ordenada:")
+print(sorted_arr)
+Neste exemplo, arr é a lista que você deseja ordenar. O algoritmo Bubble Sort compara elementos adjacentes e os troca se estiverem na ordem errada, movendo-se através da lista várias vezes até que nenhum swap seja necessário, o que indica que a lista está ordenada.
+
+Você pode implementar um algoritmo simples que imprime apenas as vogais de uma determinada palavra ou frase em Python da seguinte forma:
+
+python
+
+def imprimir_vogais(texto):
+    vogais = "aeiouAEIOU"
+    resultado = [letra for letra in texto if letra in vogais]
+    return "".join(resultado)
+
+# Exemplo de uso
+palavra = "Python é uma linguagem de programação"
+print("Vogais encontradas:")
+print(imprimir_vogais(palavra))
+Neste exemplo, a função imprimir_vogais recebe um texto como entrada e retorna uma string contendo apenas as vogais encontradas no texto. A lista de vogais é definida como "aeiouAEIOU", e a compreensão de lista é usada para filtrar as vogais do texto original. Finalmente, "".join(resultado) é usado para unir as vogais filtradas em uma única string para exibição.
+
+
+
+
+
+
