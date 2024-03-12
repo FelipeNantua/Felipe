@@ -92,13 +92,13 @@ Aqui estão exemplos simples de uma estrutura de repetição (loop) e uma estrut
 
 Exemplo de estrutura de repetição (loop):
 python
-Copy code
+
 # Loop for para imprimir os números de 1 a 5
 for i in range(1, 6):
     print(i)
 Exemplo de estrutura de tomada de decisão (condicional):
 python
-Copy code
+
 # Verifica se um número é positivo, negativo ou zero
 num = float(input("Digite um número: "))
 
