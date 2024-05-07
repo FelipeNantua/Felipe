@@ -245,4 +245,44 @@ Neste exemplo, a função imprimir_vogais recebe um texto como entrada e retorna
 
 
 
+# Função para pedir o nome do usuário e gravar em um arquivo de texto
+def gravar_nome():
+    nome = input("Informe seu nome: ")
+    with open("nome.txt", "w") as arquivo:
+        arquivo.write(nome)
+
+# Função para imprimir o conteúdo de um arquivo de texto
+def imprimir_conteudo():
+    nome_arquivo = input("Informe o nome do arquivo: ")
+    with open(nome_arquivo, "r") as arquivo:
+        conteudo = arquivo.read()
+        print(conteudo)
+
+# Função para ler o conteúdo de um arquivo e escrevê-lo em outro
+def copiar_arquivo():
+    with open("exemplo.txt", "r") as arquivo_origem:
+        conteudo = arquivo_origem.read()
+    with open("copia.txt", "w") as arquivo_destino:
+        arquivo_destino.write(conteudo)
+
+# Função para encontrar e imprimir o nome correspondente a um número
+def encontrar_nome_por_numero():
+    numero = input("Informe um número: ")
+    with open("exemplo.txt", "r") as arquivo:
+        linhas = arquivo.readlines()
+        for linha in linhas:
+            partes = linha.split()
+            if partes[0] == numero:
+                print(partes[1])
+
+# Teste das funções
+gravar_nome()
+imprimir_conteudo()
+copiar_arquivo()
+encontrar_nome_por_numero()
+
+
+
+
+
 
