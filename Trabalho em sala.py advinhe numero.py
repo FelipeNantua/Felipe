@@ -16,3 +16,14 @@ def adivinhe_o_numero():
         else:
             print("voce adivinhou em (tentativa) tentativas")
             acertou = True
+
+import random
+
+def lancamento_dado():
+    # Simula o lançamento do dado
+    resultado = random.randint(1, 6)
+    return resultado
+
+# Teste da função
+resultado_lancamento = lancamento_dado()
+print("O resultado do lançamento do dado é:", resultado_lancamento)
