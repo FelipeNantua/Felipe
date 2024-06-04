@@ -465,3 +465,50 @@ solicitar_nomes()
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+def gravar_nome_em_arquivo():
+    nome = input("Digite seu nome: ")
+    with open('nome.txt', 'w') as arquivo:
+        arquivo.write(nome)
+
+# Exemplo de uso:
+gravar_nome_em_arquivo()
+
+def imprimir_conteudo_arquivo():
+    nome_arquivo = input("Digite o nome do arquivo de texto: ")
+    with open(nome_arquivo, 'r') as arquivo:
+        conteudo = arquivo.read()
+        print(conteudo)
+
+# Exemplo de uso:
+imprimir_conteudo_arquivo()
+
+def copiar_arquivo():
+    with open('arquivo_exemplo.txt', 'r') as arquivo_origem:
+        conteudo = arquivo_origem.read()
+    with open('novo_arquivo.txt', 'w') as arquivo_destino:
+        arquivo_destino.write(conteudo)
+
+# Exemplo de uso:
+copiar_arquivo()
+
+def imprimir_nome_pelo_numero():
+    numero = int(input("Digite um número: "))
+    with open('arquivo_exemplo.txt', 'r') as arquivo:
+        linhas = arquivo.readlines()
+        for i, linha in enumerate(linhas, start=1):
+            if i == numero:
+                print("Nome correspondente ao número:", linha.strip())
+
+# Exemplo de uso:
+imprimir_nome_pelo_numero()
