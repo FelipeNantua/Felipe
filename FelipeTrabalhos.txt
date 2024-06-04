@@ -175,6 +175,72 @@ sucesso.
 
 
 
+Estrutura de repetição (loop for):
+# Estrutura de repetição - Loop for
+for i in range(5):  # Vai iterar 5 vezes
+    print("Iteração", i)
+
+Estrutura de tomada de decisão (if-else):
+# Estrutura de tomada de decisão - if-else
+idade = 18
+
+if idade >= 18:
+    print("Você é maior de idade.")
+else:
+    print("Você é menor de idade.")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+def bubble_sort(arr):
+    n = len(arr)
+    for i in range(n):
+        for j in range(0, n-i-1):
+            if arr[j] > arr[j+1]:
+                arr[j], arr[j+1] = arr[j+1], arr[j]
+
+# Exemplo de uso:
+arr = [64, 34, 25, 12, 22, 11, 90]
+bubble_sort(arr)
+print("Array ordenado usando Bubble Sort:", arr)
+
+def imprime_vogais(texto):
+    vogais = "aeiouAEIOU"
+    resultado = ""
+    for letra in texto:
+        if letra in vogais:
+            resultado += letra
+    print("Vogais na palavra/frase:", resultado)
+
+# Exemplo de uso:
+palavra = "Olá mundo! Esta é uma frase de exemplo."
+imprime_vogais(palavra)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 Aqui estão exemplos simples de uma estrutura de repetição (loop) e uma estrutura de tomada de decisão (condicional) em Python:
 
